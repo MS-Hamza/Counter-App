@@ -1,0 +1,65 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300;400;500;600;700&display=swap");
+
+
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: "Poppins", "sans-serif";
+}
+
+main{
+    text-align: center;
+    margin-top: 6rem;
+}
+
+h1{
+    color: rgb(10, 118, 195);
+    font-size: 60px;
+}
+
+h2{
+    margin-top: 2rem;
+    font-size: 80px;
+}
+
+.my-button{
+    margin-top: 4rem;
+}
+
+button{
+    background-color: rgb(199, 209, 217);
+    border-radius: 0.5rem;
+    padding: 1rem 2rem;
+    font-size: 20px;
+    font-weight: bold;
+    border: none;
+    outline: none;
+    cursor: pointer;
+    padding: 1rem 2rem;
+    transition: background 0.8s;
+}
+
+#Increase:hover{
+    background-color: rgb(12, 168, 23);
+    color: white;
+}
+
+#Decrease:hover{
+    background-color: rgb(232, 29, 22);
+    color: white;
+}
+#Decrease{
+    margin-right: 2rem;
+}
+
+#Increase{
+    margin-left: 2rem;
+}
+
+#Reset:hover{
+    background-color: rgb(244, 237, 17);
+}
